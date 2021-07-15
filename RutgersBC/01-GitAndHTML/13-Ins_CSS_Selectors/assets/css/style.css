@@ -1,0 +1,28 @@
+/* * is the Select all elemetn in css */
+
+* {
+  font-family: "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+}
+
+body {
+  background-color: lemonchiffon;
+}
+
+section {
+  width: 300px;
+  height: 200px;
+}
+
+p {
+  font-size: 60px;
+  line-height: 200px;
+}
+.box-blue {
+  color: white;
+  background-color: blue;
+}
+
+.box-orange {
+  color: blue;
+  background-color: orange;
+}
