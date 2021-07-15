@@ -1,0 +1,9 @@
+#navbar {
+  list-style-type: none;
+  display: inline;
+}
+
+.footer {
+  color: white;
+  background-color: #266150;
+}
