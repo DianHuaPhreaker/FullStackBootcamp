@@ -1,0 +1,31 @@
+/* TODO: Label selector type */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* TODO: Label selector type */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  background-color: #191970;
+  line-height: 100px;
+  color: #f0ead6;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* TODO: Label selector type */
+.highlighted-text {
+  font-weight: bold;
+}
+
+/* TODO: Label selector type */
+#contact-section {
+  font-weight: bold;
+}
