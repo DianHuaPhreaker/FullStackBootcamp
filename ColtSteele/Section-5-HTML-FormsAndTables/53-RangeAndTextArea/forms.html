@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>53 - Range and Text Area</title>
+</head>
+
+<body>
+   <h1>Forms Demo</h1>
+   <!-- 
+      Outside Form
+    -->
+   <button type="button">Outside Form BTN</button>
+   <form action="/tacos">
+      <!-- username -->
+      <p>
+         <label for="username">Enter a username: </label>
+         <input type="text" placeholder="Empty text" id="username" name="username">
+      </p>
+      <!-- password -->
+      <p>
+         <label for="password">Password:</label>
+         <input type="password" id="password" placeholder="password" name="password">
+      </p>
+      <!-- Color -->
+      <p>
+         <label for="color">Color:</label>
+         <input type="color" id="color" name="color">
+      </p>
+      <!-- Number -->
+      <p>
+         <label for="number">Number</label>
+         <input type="number" id="number" placehold="enter a number" name="number" min="1" max="10" step="2">
+      </p>
+      <p>
+         <label for="time">Time</label>
+         <input type="time" id="time" name="time">
+      </p>
+      <button>Submit</button>
+      <!-- Input - BAD WAY to make submit button-->
+      <input type="submit" value="Click me">
+   </form>
+   <button>Button not inside form</button>
+   <br>
+   <h2>Reddit search</h2>
+   <form action="https://reddit.com/search">
+      <input type="text" name="q">
+      <button>search reddit</button>
+   </form>
+   <br>
+   <h2>Google Search</h2>
+   <form action="https://www.google.com/search?q=">
+      <input type="text" name="q">
+      <button>search google</button>
+   </form>
+   <br>
+   <h2>Youtube Search</h2>
+   <form action="https://youtube.com/search">
+      <input type="text" name="search_query">
+      <button>search google</button>
+   </form>
+
+   <h2>More Inputs</h2>
+   <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" checked='true'>
+      <label for="agree">I agree to everything.</label>
+      <!-- Radio Buttons -->
+      <p>
+         <label for="xs">XS:</label>
+         <input type="radio" name="size" id="xs" value="xs">
+         <label for="s">S</label>
+         <input type="radio" name="size" id="s" value="s">
+         <label for="m">M</label>
+         <input type="radio" name="size" id="m" value="m">
+      </p>
+
+      <h3>Meal Type:</h3>
+      <p>
+         <label for="meal">Select Entree</label>
+         <select name="meal" id="meal">
+            <option value="fish">fish</option>
+            <option value="chicken" selected>chicken</option>
+            <option value="veg">Vegetarian</option>
+         </select>
+         <!-- Range and Text Area -->
+      <h3>Cheese</h3>
+      <label for="cheese">Amount of Cheese:</label>
+      <input type="range" id="cheese" min="1" max="100" value="75" step="5" name="cheese_level">
+      </p>
+      <p>
+         <label for="requests">Any special Requests?</label>
+         <br>
+         <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+      </p>
+      <button>Submit</button>
+   </form>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>50 - Name Attribute</title>
+</head>
+
+<body>
+   <h1>Forms Demo</h1>
+   <!-- 
+      Outside Form
+    -->
+   <button type="button">Outside Form BTN</button>
+   <form action="/tacos">
+      <!-- username -->
+      <p>
+         <label for="username">Enter a username: </label>
+         <input type="text" placeholder="Empty text" id="username" name="username">
+      </p>
+      <!-- password -->
+      <p>
+         <label for="password">Password:</label>
+         <input type="password" id="password" placeholder="password" name="password">
+      </p>
+      <!-- Color -->
+      <p>
+         <label for="color">Color:</label>
+         <input type="color" id="color" name="color">
+      </p>
+      <!-- Number -->
+      <p>
+         <label for="number">Number</label>
+         <input type="nunber" id="number" name="number">
+      </p>
+      <p>
+         <label for="time">Time</label>
+         <input type="time" id="time" name="time">
+      </p>
+      <button>Submit</button>
+      <!-- Input - BAD WAY to make submit button-->
+      <input type="submit" value="Click me">
+   </form>
+   <button>Button not inside form</button>
+</body>
+
+</html>
+file:///tacos?username=SAD&password=124A&color=%23011892&number=4124&time=11%3A11

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Marathon Registration</title>
+</head>
+
+<body>
+   <!--  -->
+   <div id="race">
+      <h1>Rage Registration!</h1>
+   </div>
+   <div>
+      <form action="/race">
+         <p>
+            <!-- First Name -->
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="first" placeholder="First Name">
+            <!-- Last Name -->
+            <label for="last">Last Name</label>
+            <input type="last" name="last" id="last" placeholder="Last Name">
+         </p>
+         <!-- Radio Buttons: Select Race -->
+         <p>Select a race length: </p>
+         <!-- 5k -->
+         <div>
+            <input type="radio" name="length" id="5k" value="5k">
+            <label for="5k">5K</label>
+         </div>
+         <!-- half marathon -->
+         <div>
+            <input type="radio" name="length" id="half" value="half">
+            <label for="half">Half Marathon</label>
+         </div>
+         <!-- Full Marathon -->
+         <div>
+            <input type="radio" name="length" id="full" value="full">
+            <label for="full">Full Marathon</label>
+         </div>
+         <p>
+            <!-- Email-->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <!-- Last Name -->
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+         </p>
+
+         <p>Age Group
+            <label for="division">Age Group</label>
+            <select name="age-group" id="age-group">
+               <option value="age1">Under 18</option>
+               <option value="age2" selected>18-30</option>
+               <option value="age3">30-50</option>
+               <option value="age4">50+</option>
+            </select>
+         </p>
+
+         <button>Register!</button>
+      </form>
+   </div>
+</body>
+
+</html>
