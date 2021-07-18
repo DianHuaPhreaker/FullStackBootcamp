@@ -1,0 +1,80 @@
+body {
+  background-color: #f1faee;
+}
+
+button {
+  font-size: 30px;
+  background-color: #a8dadc;
+}
+
+h1,
+h2 {
+  color: #1d3557;
+}
+
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+span {
+  color: #457b9d;
+}
+.tag {
+  background-color: #e63949;
+  color: #f1faee;
+}
+
+.post a {
+  color: #457b9d;
+}
+
+footer a {
+  color: #e63946;
+}
+
+/* Adjacent Selector */
+/* Every button that comes after an H2 */
+h2 + button {
+  font-size: 30px;
+}
+
+/* Direct descendent - Not nested between anything else  */
+footer > a {
+  color: #a8dadc;
+}
+
+/* Attribute Selector */
+input[type="password"] {
+  color: yellow;
+}
+
+section[class="post"] {
+  background-color: orange;
+}
+
+/* This is saying if anywhere */
+a[href*="google.com"] {
+  background-color: turquoise;
+}
+
+/* Any href that ends in .org
+a[href$=".org"] {
+  font-style: italic;
+} */
+
+/* Change color when hover over */
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+.post a:hover {
+  text-decoration: overline;
+}
+
+.post button:active {
+  background-color: #02c39a;
+}
+
+
